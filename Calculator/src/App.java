@@ -40,6 +40,7 @@ public class App {
                 System.out.println("Please enter a valid option!");
             }
         }
+        System.out.println("Goodbye, Thanks for playing!");
     }
     public static void performOperation(String operation){
         System.out.println("You Chose " + operation);
@@ -62,9 +63,8 @@ public class App {
             case "Division":
             result = num1 / num2;
             break;
-
         }
-
+        System.out.println("The result of " + operation + " is: " + result);
     }
 
     public static double getValidNumber(String prompt){
